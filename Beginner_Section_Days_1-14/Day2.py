@@ -31,5 +31,6 @@ percentage = float("1."+tip)
 
 total = float(bill) * percentage
 share = total / int(splitwise)
-share = round(share, 2)
-print("Each person should pay $" +str(share))
+
+
+print("Each person should pay $" +"{:.2f}".format(round(share,2)))
