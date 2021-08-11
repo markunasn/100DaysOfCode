@@ -96,7 +96,7 @@ while running:
                 display[i] = guess
         if guess not in word:
             lives -= 1
-            print(That letter isn't in the word, you lost a life.  You have ' + str(lives) + ' remaining.')
+            print("That letter isn't in the word, you lost a life.  You have " + str(lives) + " remaining.")
         #End of game check
         if lives == 0:
             print('You lose :(')
