@@ -73,5 +73,8 @@ def game():
             user_hand.append(deal_card())
         else:
             is_game = False
+            print(f"Your hand: {user_hand}, score: {user_score}")
+            print(f"Computer's hand: {computer_hand}, score {computer_score}")
+            compare(user_hand,computer_hand)
 
-
+game()
